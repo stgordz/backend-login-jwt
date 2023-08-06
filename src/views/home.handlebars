@@ -1,0 +1,19 @@
+<div class="home-container">
+	<h1 class="home-title">Home</h1>
+	<form
+		method="post"
+		action="/api/sessions/logout"
+	>
+		<p>Welcome {{user.email}}</p>
+		<p>Role: {{user.role}}</p>
+		<input type="submit" value="Logout">
+	</form>
+
+	<ul class="home-list">
+		<li class="home-item"> <a href="./products">Products</a></li>
+		<li class="home-item"> <a href="./realTimeProducts">Real time products</a></li>
+		<li class="home-item"> <a href="./chat">Chat</a></li>
+		<li class="home-item"> <a href="./carts/">Carts (has to add the cart id)</a></li>
+	</ul>
+</div>
+

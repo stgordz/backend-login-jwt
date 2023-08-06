@@ -1,0 +1,13 @@
+<div class="products-container">
+	<h1 class="products-title">Product</h1>
+
+		<div class="products-item">
+			<p class="products-text">Product: {{product.title}}</p>
+			<p class="products-text">Description: {{product.description}}</p>
+			<p class="products-text">Price: ${{product.price}}</p>
+			<p class="products-text">Stock: {{product.stock}}</p>
+			<p class="products-text">Category: {{product.category}}</p>
+			<a href="/api/carts/{{cart}}/product/{{product._id}}" class="products-link-cart" target="_blank">Add to cart</a>
+		</div>
+	
+</div>
